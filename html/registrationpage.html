@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+</head>
+<body>
+    <h2>Registration Page</h2>
+    <form>
+        <fieldset>
+            <br/>
+          <legend>
+              Login Info:
+          </legend>
+          
+          <label for="username">Name:</label>
+          <input id="username" type="text" placeholder="Your Name"/>
+          <br/>
+          <label for="email">Email:</label>
+          <input id="email" type="email" placeholder="Your Email"/>
+          <br/>
+          <label for="password" >Password:</label>
+          <input id="password" type="password" placeholder="Your Password"/>
+        </fieldset>
+<br/>
+        <fieldset>
+            <br/>
+            <legend>Personal Info:</legend>
+            <label for="name">Name:</label>
+            <input id="name" type="text"/>
+            <br/>
+          <p>  Gender:
+            <label for="male">Male</label>
+            <input id="male" type="radio" name="gender"/>
+            <label for="female">Female</label>
+            <input id="female" type="radio" name="gender"/></p>
+
+            <label for="adress">Adress:</label>
+            <input id="adress" type="text"/>
+            <br/>
+
+          <p>  <label for="hobbies">Hobbies:</label>
+            <select id="hobbies">
+                <option value="painting">Painting</option>
+                <option value="Music">Music</option>
+                <option value="Sketching">Sketching</option>
+            </select></p>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <br/>
+            <legend>Shipping Info:</legend>
+            <label>Shipping Adress:</label>
+            <br/>
+            <textarea cols="25" rows="10">Enter your postal Adress, City, Postal code</textarea>
+             <br/>
+             <input type="submit"/>
+        </fieldset>
+    </form>
+
+    <p><a href="./loginpage.html">Login Page</a></p>
+    <p><a href="../index.html">Home page</a></p>
+</body>
+</html>
